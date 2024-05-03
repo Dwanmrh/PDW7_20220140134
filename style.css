@@ -1,0 +1,90 @@
+/* Custom CSS */
+
+/* Style untuk gambar iPhone */
+.img-iphone {
+  max-width: 80%; /* Mengurangi lebar maksimum gambar */
+  height: auto;
+  margin-bottom: 20px; /* Meningkatkan jarak antara gambar */
+  margin-right: auto; /* Margin kanan otomatis */
+  margin-left: auto; /* Margin kiri otomatis */
+}
+
+/* Style untuk judul iPhone */
+h2 {
+  font-size: 1.2rem; /* Ukuran font untuk judul */
+  margin-bottom: 10px;
+  color: #333; /* Warna teks */
+  text-align: left; /* Posisi teks ke kiri */
+}
+
+/* Style untuk harga iPhone */
+.price {
+  font-size: 1rem; /* Ukuran font untuk harga */
+  margin-bottom: 15px;
+  color: #666; /* Warna teks */
+  text-align: left; /* Posisi teks ke kiri */
+}
+
+/* Style untuk wrapper tombol Order Now */
+.btn-wrapper {
+  text-align: left; /* Posisi wrapper ke kiri */
+  margin-bottom: 20px; /* Jarak antara tombol dan harga */
+}
+
+/* Style untuk tombol Order Now dan menu di navbar */
+.btn-order {
+  font-size: 1rem; /* Ukuran font */
+  background-color: #d0c6a6; /* Warna latar belakang */
+  color: #000000; /* Warna teks */
+  border-color: #d0c6a6; /* Warna border */
+  width: auto; /* Lebar tombol menyesuaikan konten */
+}
+
+/* Style untuk tombol Order Now dan menu di navbar saat dihover */
+.btn-order:hover,
+.navbar-nav .nav-link:hover {
+  background-color: #ede2be; /* Warna latar belakang saat dihover */
+  border-color: #ede2be; /* Warna border saat dihover */
+  color: #000000; /* Warna teks menjadi hitam saat dihover */
+}
+
+/* Efek transisi saat tombol Order Now dan menu di navbar dihover */
+.btn-order:hover,
+.navbar-nav .nav-link:hover {
+  transition: background-color 0.3s ease; /* Efek transisi saat dihover */
+}
+
+/* Style untuk video */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  filter: brightness(70%); /* Mengatur kegelapan video */
+}
+
+/* Style untuk teks pada video */
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Warna teks putih */
+  font-size: 3rem; /* Ukuran font */
+  font-weight: bold; /* Tebal font */
+  text-align: center; /* Posisi teks di tengah */
+  z-index: 1; /* Menempatkan teks di atas video */
+}
